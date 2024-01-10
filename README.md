@@ -32,8 +32,8 @@ Ensure that these dependencies are installed before using the tool.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/SecureNet-Watchman.git
-cd SecureNet-Watchman
+git clone https://github.com/your-username/arpguard.git
+cd arpguard
 ```
 
 ## Compile the code
