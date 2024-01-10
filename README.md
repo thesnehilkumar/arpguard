@@ -13,8 +13,6 @@ Current version: 1.0
 - [Installation](#installation)
 - [Usage](#usage)
 - [Options](#options)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
