@@ -9,7 +9,7 @@
 #include <time.h>
 #include <netinet/if_ether.h>
 #include <unistd.h>
-// #include <libnotify/notify.h>
+#include <libnotify/notify.h>
 
 #define ARP_REQUEST 1  // ARP Request
 #define ARP_RESPONSE 2 // ARP Response
