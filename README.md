@@ -32,7 +32,7 @@ Ensure that these dependencies are installed before using the tool.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/arpguard.git
+git clone https://github.com/thesnehilkumar/arpguard.git
 cd arpguard
 ```
 
