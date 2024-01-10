@@ -39,21 +39,21 @@ cd SecureNet-Watchman
 ## Compile the code
 
 ```bash
-gcc -o watchman watchman.c -lpcap
+gcc -o arpguard arpguard.c -lpcap
 ```
 
 ## Usage
 
 ```bash
-./watchman -h
+./arpguard -h
 
 -h or --help: Display help information.
 -l or --lookup: Print available network interfaces.
 -i or --interface: Specify the network interface to sniff on.
 -v or --version: Display the tool's version information.
 
-./watchman -l
+./arpguard -l
 
-./watchman -i <interface>
+./arpguard -i <interface>
 ```
 
