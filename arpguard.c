@@ -9,7 +9,7 @@
 #include <time.h>
 #include <netinet/if_ether.h>
 #include <unistd.h>
-#include <libnotify/notify.h>
+
 
 #define ARP_REQUEST 1  // ARP Request
 #define ARP_RESPONSE 2 // ARP Response
@@ -203,6 +203,7 @@ int main(int argc, char *argv[])
 	}
 	else if (strcmp("-l", argv[1]) == 0 || strcmp("--lookup", argv[1]) == 0)
 	{
+		print_version();
 		print_available_interfaces();
 	}
 	else if (strcmp("-i", argv[1]) == 0 || strcmp("--interface", argv[1]) == 0)
@@ -216,6 +217,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
+			print_version();
 			sniff_arp(argv[2]);
 		}
 	}
