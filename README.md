@@ -12,7 +12,7 @@ Current version: 1.0
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Options](#options)
+
 
 ## Features
 
