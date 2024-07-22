@@ -75,7 +75,7 @@ void print_version()
     printf(ANSI_COLOR_RESET);
     printf("\n");
     printf(ANSI_COLOR_RED);
-    printf("  GitHub: [@thesnehilkumar](https://github.com/thesnehilkumar/your-repo-name)\n");
+    printf("  GitHub: [@thesnehilkumar](https://github.com/thesnehilkumar/)\n");
     printf(ANSI_COLOR_RESET);
 }
 
